@@ -21,3 +21,19 @@ def maclaurin_ln_1_minus_x(x, n=10):
     for k in range(1, n + 1):
         result -= x**k / k
     return result
+
+
+def maclaurin_1_plus_x_pow_m(x, m, n=10):
+    """
+    Вычисление (1 + x)^m через разложение в ряд Маклорена.
+    """
+    if abs(x) >= 1:
+        raise ValueError("Значение x должно быть в диапазоне |x| < 1.")
+    result = 1  # Первое слагаемое
+    term = 1  # Для вычисления каждого следующего члена ряда
+    for k in range(1, n):
+        term *= (m - (k - 1)) * x / k
+        result += term
+    return result
+
+
