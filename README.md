@@ -37,11 +37,10 @@ sin(x) = \sum_{k=0}^{n-1} \frac{(-1)^k x^{2k+1}}{(2k+1)!}
 $$
 
 ### Ссылки
-- [Документация Python](https://docs.python.org/3/)
 - [GitHub проекта](https://github.com/pgwookie/Practical_Maclaurin_Series)
 
 ### Изображение 
-![Структура проекта](https://via.placeholder.com/600x400.png)
+![Структура проекта]([https://via.placeholder.com/600x400.png](https://i.pinimg.com/originals/25/69/eb/2569eb5597fe9f2995ee5c94df0ea270.jpg))
 
 ### Стиль текста
 Этот текст демонстрирует использование **полужирного** и *курсивного* написания.
